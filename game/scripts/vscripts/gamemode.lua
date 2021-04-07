@@ -16,6 +16,7 @@ SHOP_TEAM_1 = Vector(-832, 768, 128)
 --base shop position team 2
 SHOP_TEAM_2 = Vector(-832, 768, 128)
 
+require('libraries/adv_log') -- extended print functionalities. Credits: Dota IMBA
 -- This library allow for easily delayed/timed actions
 require('libraries/timers')
 -- This library can be used for advancted physics/motion/collision of units.  See PhysicsReadme.txt for more information.

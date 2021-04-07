@@ -181,11 +181,7 @@ function StringStartsWith( fullstring, substring )
     local first_characters = string.sub(fullstring, 1 , strlen)
     return (first_characters == substring)
 end
---[[Author: https://github.com/MNoya/DotaCraft/blob/01a29892b124f695cadd0a134afb8d056c83015a/game/dota_addons/dotacraft/scripts/vscripts/utilities.lua
-]]
-function DebugPrint(...)
-        print(...)
-end
+
 --[[Author: https://github.com/MNoya/DotaCraft/blob/01a29892b124f695cadd0a134afb8d056c83015a/game/dota_addons/dotacraft/scripts/vscripts/utilities.lua
 ]]
 function VectorString(v)
